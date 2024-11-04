@@ -1,0 +1,24 @@
+html,body{
+    margin:0;
+    padding:0;
+}
+.container{
+    height:200px;
+    width:calc(200px*3/2);
+    margin:2em auto;
+    /* display:flex; */
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+}
+/* .stripe{
+    flex-grow:1;
+} */
+.blue{
+    background-color: blue;
+}
+.yellow{
+    background-color: yellow;
+}
+.red{
+    background-color: red;
+}
